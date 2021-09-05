@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		8883DC7C26E4B4350008B520 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DC7B26E4B4350008B520 /* Tests_iOS.swift */; };
 		8883DC8726E4B4350008B520 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DC8626E4B4350008B520 /* Tests_macOS.swift */; };
-		8883DC8926E4B4350008B520 /* MukMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DC6026E4B4350008B520 /* MukMapApp.swift */; };
-		8883DC8A26E4B4350008B520 /* MukMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DC6026E4B4350008B520 /* MukMapApp.swift */; };
-		8883DC8B26E4B4350008B520 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DC6126E4B4350008B520 /* ContentView.swift */; };
-		8883DC8C26E4B4350008B520 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DC6126E4B4350008B520 /* ContentView.swift */; };
 		8883DC8D26E4B4350008B520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8883DC6226E4B4350008B520 /* Assets.xcassets */; };
 		8883DC8E26E4B4350008B520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8883DC6226E4B4350008B520 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -35,8 +31,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8883DC6026E4B4350008B520 /* MukMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukMapApp.swift; sourceTree = "<group>"; };
-		8883DC6126E4B4350008B520 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8883DC6226E4B4350008B520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8883DC6726E4B4350008B520 /* MukMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MukMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8883DC6A26E4B4350008B520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,8 +92,6 @@
 		8883DC5F26E4B4350008B520 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				8883DC6026E4B4350008B520 /* MukMapApp.swift */,
-				8883DC6126E4B4350008B520 /* ContentView.swift */,
 				8883DC6226E4B4350008B520 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -308,8 +300,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8883DC8B26E4B4350008B520 /* ContentView.swift in Sources */,
-				8883DC8926E4B4350008B520 /* MukMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +307,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8883DC8C26E4B4350008B520 /* ContentView.swift in Sources */,
-				8883DC8A26E4B4350008B520 /* MukMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,7 +545,6 @@
 		8883DC9826E4B4350008B520 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Tests iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
@@ -578,7 +565,6 @@
 		8883DC9926E4B4350008B520 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Tests iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
@@ -600,7 +586,6 @@
 		8883DC9B26E4B4350008B520 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Tests macOS/Info.plist";
@@ -621,7 +606,6 @@
 		8883DC9C26E4B4350008B520 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Tests macOS/Info.plist";
