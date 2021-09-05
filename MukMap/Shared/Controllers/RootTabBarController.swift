@@ -14,10 +14,13 @@ class RootTabBarController: UITabBarController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(false)
+        
     }
     
     override func viewDidLoad() {
-        view.backgroundColor = .red
+        // Start ViewController with Pinned VC?
+        self.selectedIndex = 1
+        
     }
     
     override func viewDidDisappear(_ animated: Bool) {

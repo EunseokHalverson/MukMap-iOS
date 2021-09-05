@@ -8,33 +8,33 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--MukMap-->
         <scene sceneID="5q1-lU-lOc">
             <objects>
-                <viewController id="ulo-Fl-CEJ" sceneMemberID="viewController">
+                <viewController id="ulo-Fl-CEJ" customClass="MapViewController" customModule="MukMap" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D0K-YK-u0o">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="n3W-Sg-p0B"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="hmA-4Y-Mev"/>
+                    <navigationItem key="navigationItem" title="MukMap" id="hmA-4Y-Mev"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aO1-Uj-tkd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1299" y="425"/>
         </scene>
-        <!--View Controller-->
+        <!--찜목록-->
         <scene sceneID="rDq-o4-OYT">
             <objects>
-                <viewController id="rk4-0H-7HN" sceneMemberID="viewController">
+                <viewController id="rk4-0H-7HN" customClass="WishListViewController" customModule="MukMap" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mvf-pR-aED">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="31t-xU-bFt"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="0qf-5k-DgO"/>
+                    <navigationItem key="navigationItem" title="찜목록" id="0qf-5k-DgO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q20-Dc-3PL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -44,10 +44,10 @@
         <scene sceneID="8ka-tR-0gi">
             <objects>
                 <tabBarController id="NuJ-IW-0Zx" customClass="RootTabBarController" customModule="MukMap" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zqL-Ih-P8f">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="zqL-Ih-P8f">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="5D1-AG-94E" kind="relationship" relationship="viewControllers" id="emM-Y2-fHZ"/>
@@ -97,17 +97,17 @@
             </objects>
             <point key="canvasLocation" x="535" y="425"/>
         </scene>
-        <!--View Controller-->
+        <!--구독목록-->
         <scene sceneID="luo-dY-g4v">
             <objects>
-                <viewController id="Oww-TQ-1aU" sceneMemberID="viewController">
+                <viewController id="Oww-TQ-1aU" customClass="SubscribeListViewController" customModule="MukMap" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7U4-3I-uNe">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="jF3-4F-lJg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="uzK-5A-MiL"/>
+                    <navigationItem key="navigationItem" title="구독목록" id="uzK-5A-MiL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B65-dj-EXg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
