@@ -81,8 +81,8 @@
 				8883DCA226E4B5EF0008B520 /* Controllers */,
 				8883DC9F26E4B4C10008B520 /* AppDelegate.swift */,
 				8883DCAD26E4BA8B0008B520 /* SceneDelegate.swift */,
-				8883DCAF26E4BAB20008B520 /* LaunchScreen.storyboard */,
 				8883DCA926E4B67A0008B520 /* Main.storyboard */,
+				8883DCAF26E4BAB20008B520 /* LaunchScreen.storyboard */,
 				8883DC9D26E4B4C10008B520 /* MukMap (iOS)-Bridging-Header.h */,
 				8883DC9E26E4B4C10008B520 /* MukMap (macOS)-Bridging-Header.h */,
 			);
