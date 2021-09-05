@@ -10,6 +10,7 @@
 		8883DC7C26E4B4350008B520 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DC7B26E4B4350008B520 /* Tests_iOS.swift */; };
 		8883DC8D26E4B4350008B520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8883DC6226E4B4350008B520 /* Assets.xcassets */; };
 		8883DCA026E4B4C10008B520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DC9F26E4B4C10008B520 /* AppDelegate.swift */; };
+		8883DCAA26E4B67A0008B520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8883DCA926E4B67A0008B520 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		8883DC9D26E4B4C10008B520 /* MukMap (iOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MukMap (iOS)-Bridging-Header.h"; sourceTree = "<group>"; };
 		8883DC9E26E4B4C10008B520 /* MukMap (macOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MukMap (macOS)-Bridging-Header.h"; sourceTree = "<group>"; };
 		8883DC9F26E4B4C10008B520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8883DCA926E4B67A0008B520 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		8883DC5A26E4B4350008B520 = {
 			isa = PBXGroup;
 			children = (
+				8883DC6226E4B4350008B520 /* Assets.xcassets */,
 				8883DC5F26E4B4350008B520 /* Shared */,
 				8883DC6926E4B4350008B520 /* iOS */,
 				8883DC7A26E4B4350008B520 /* Tests iOS */,
@@ -65,10 +68,13 @@
 		8883DC5F26E4B4350008B520 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				8883DC6226E4B4350008B520 /* Assets.xcassets */,
+				8883DCA826E4B64F0008B520 /* Cells */,
+				8883DCA326E4B6010008B520 /* APIManager */,
+				8883DCA426E4B61D0008B520 /* Models */,
+				8883DCA526E4B6310008B520 /* VIewModels */,
+				8883DCA226E4B5EF0008B520 /* Controllers */,
 				8883DC9F26E4B4C10008B520 /* AppDelegate.swift */,
-				8883DC9D26E4B4C10008B520 /* MukMap (iOS)-Bridging-Header.h */,
-				8883DC9E26E4B4C10008B520 /* MukMap (macOS)-Bridging-Header.h */,
+				8883DCA926E4B67A0008B520 /* Main.storyboard */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -86,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				8883DC6A26E4B4350008B520 /* Info.plist */,
+				8883DC9D26E4B4C10008B520 /* MukMap (iOS)-Bridging-Header.h */,
+				8883DC9E26E4B4C10008B520 /* MukMap (macOS)-Bridging-Header.h */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -97,6 +105,41 @@
 				8883DC7D26E4B4350008B520 /* Info.plist */,
 			);
 			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		8883DCA226E4B5EF0008B520 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8883DCA326E4B6010008B520 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = APIManager;
+			sourceTree = "<group>";
+		};
+		8883DCA426E4B61D0008B520 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8883DCA526E4B6310008B520 /* VIewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIewModels;
+			sourceTree = "<group>";
+		};
+		8883DCA826E4B64F0008B520 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8883DC8D26E4B4350008B520 /* Assets.xcassets in Resources */,
+				8883DCAA26E4B67A0008B520 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
