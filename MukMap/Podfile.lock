@@ -1,20 +1,24 @@
 PODS:
   - FlexLayout (1.3.21)
   - NMapsMap (3.13.0)
+  - PinLayout (1.10.0)
 
 DEPENDENCIES:
   - FlexLayout
   - NMapsMap
+  - PinLayout
 
 SPEC REPOS:
   trunk:
     - FlexLayout
     - NMapsMap
+    - PinLayout
 
 SPEC CHECKSUMS:
   FlexLayout: 369187058b11d0452055ba6cce59c4572b430906
   NMapsMap: 88b5bdac7087bfa99ab058ff5cdd95fb766e0e95
+  PinLayout: e50e9a748b632905fca6e67043ea4b05d6c92186
 
-PODFILE CHECKSUM: 6aa7c944eb29ca8d671bc52c270b3b0cf48cd26e
+PODFILE CHECKSUM: 9fb51d7703253f057f4f32cfd23c0e38f51a5da1
 
 COCOAPODS: 1.10.1

@@ -10,8 +10,6 @@ import UIKit
 
 class RootTabBarController: UITabBarController {
     
-    
-    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(false)
         

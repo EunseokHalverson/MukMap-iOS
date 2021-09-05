@@ -8,5 +8,5 @@ target 'MukMap (iOS)' do
   # Pods for MukMap (iOS)
   pod 'NMapsMap'
   pod 'FlexLayout'
-
+  pod 'PinLayout'
 end
