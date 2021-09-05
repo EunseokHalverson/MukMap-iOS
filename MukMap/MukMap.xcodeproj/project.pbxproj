@@ -14,6 +14,10 @@
 		8883DCAC26E4B9BA0008B520 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DCAB26E4B9BA0008B520 /* RootTabBarController.swift */; };
 		8883DCAE26E4BA8B0008B520 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DCAD26E4BA8B0008B520 /* SceneDelegate.swift */; };
 		8883DCB026E4BAB20008B520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8883DCAF26E4BAB20008B520 /* LaunchScreen.storyboard */; };
+		8883DCB226E4C3680008B520 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DCB126E4C3680008B520 /* MapViewController.swift */; };
+		8883DCB426E4C3800008B520 /* SubscribeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DCB326E4C3800008B520 /* SubscribeListViewController.swift */; };
+		8883DCB626E4C3A20008B520 /* WishListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DCB526E4C3A20008B520 /* WishListViewController.swift */; };
+		8883DCB926E4C5330008B520 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DCB826E4C5330008B520 /* UINavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		8883DCAB26E4B9BA0008B520 /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
 		8883DCAD26E4BA8B0008B520 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8883DCAF26E4BAB20008B520 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8883DCB126E4C3680008B520 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8883DCB326E4C3800008B520 /* SubscribeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeListViewController.swift; sourceTree = "<group>"; };
+		8883DCB526E4C3A20008B520 /* WishListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListViewController.swift; sourceTree = "<group>"; };
+		8883DCB826E4C5330008B520 /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 		8883DC5F26E4B4350008B520 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				8883DCB726E4C5180008B520 /* Extensions */,
 				8883DCA826E4B64F0008B520 /* Cells */,
 				8883DCA326E4B6010008B520 /* APIManager */,
 				8883DCA426E4B61D0008B520 /* Models */,
@@ -119,6 +128,9 @@
 			isa = PBXGroup;
 			children = (
 				8883DCAB26E4B9BA0008B520 /* RootTabBarController.swift */,
+				8883DCB526E4C3A20008B520 /* WishListViewController.swift */,
+				8883DCB126E4C3680008B520 /* MapViewController.swift */,
+				8883DCB326E4C3800008B520 /* SubscribeListViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -149,6 +161,14 @@
 			children = (
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		8883DCB726E4C5180008B520 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8883DCB826E4C5330008B520 /* UINavigationController.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,9 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8883DCB426E4C3800008B520 /* SubscribeListViewController.swift in Sources */,
+				8883DCB626E4C3A20008B520 /* WishListViewController.swift in Sources */,
 				8883DCA026E4B4C10008B520 /* AppDelegate.swift in Sources */,
 				8883DCAC26E4B9BA0008B520 /* RootTabBarController.swift in Sources */,
 				8883DCAE26E4BA8B0008B520 /* SceneDelegate.swift in Sources */,
+				8883DCB226E4C3680008B520 /* MapViewController.swift in Sources */,
+				8883DCB926E4C5330008B520 /* UINavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
