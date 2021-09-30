@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8448A3A0BA5E7DF4ABEAB2FA /* Pods_MukMap__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB79443B8939EEBCE43196C /* Pods_MukMap__iOS_.framework */; };
+		8840620826E4F874005B2B85 /* UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840620726E4F874005B2B85 /* UISearchBar.swift */; };
+		8883DC7C26E4B4350008B520 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DC7B26E4B4350008B520 /* Tests_iOS.swift */; };
+		8883DC8D26E4B4350008B520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8883DC6226E4B4350008B520 /* Assets.xcassets */; };
+		8883DCA026E4B4C10008B520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DC9F26E4B4C10008B520 /* AppDelegate.swift */; };
+		8883DCAA26E4B67A0008B520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8883DCA926E4B67A0008B520 /* Main.storyboard */; };
+		8883DCAC26E4B9BA0008B520 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DCAB26E4B9BA0008B520 /* RootTabBarController.swift */; };
+		8883DCAE26E4BA8B0008B520 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DCAD26E4BA8B0008B520 /* SceneDelegate.swift */; };
+		8883DCB026E4BAB20008B520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8883DCAF26E4BAB20008B520 /* LaunchScreen.storyboard */; };
+		8883DCB226E4C3680008B520 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DCB126E4C3680008B520 /* MapViewController.swift */; };
+		8883DCB426E4C3800008B520 /* SubscribeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DCB326E4C3800008B520 /* SubscribeListViewController.swift */; };
+		8883DCB626E4C3A20008B520 /* WishListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DCB526E4C3A20008B520 /* WishListViewController.swift */; };
+		8883DCB926E4C5330008B520 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883DCB826E4C5330008B520 /* UINavigationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8883DC7826E4B4350008B520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8883DC5B26E4B4350008B520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8883DC6626E4B4350008B520;
+			remoteInfo = "MukMap (iOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DE5CF14EA72DB359596B272 /* Pods-MukMap (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MukMap (iOS).release.xcconfig"; path = "Target Support Files/Pods-MukMap (iOS)/Pods-MukMap (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		6EB79443B8939EEBCE43196C /* Pods_MukMap__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MukMap__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8840620726E4F874005B2B85 /* UISearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISearchBar.swift; sourceTree = "<group>"; };
+		8883DC6226E4B4350008B520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8883DC6726E4B4350008B520 /* MukMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MukMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8883DC6A26E4B4350008B520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8883DC7726E4B4350008B520 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8883DC7B26E4B4350008B520 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		8883DC7D26E4B4350008B520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8883DC9D26E4B4C10008B520 /* MukMap (iOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MukMap (iOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		8883DC9E26E4B4C10008B520 /* MukMap (macOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MukMap (macOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		8883DC9F26E4B4C10008B520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8883DCA926E4B67A0008B520 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8883DCAB26E4B9BA0008B520 /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		8883DCAD26E4BA8B0008B520 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8883DCAF26E4BAB20008B520 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8883DCB126E4C3680008B520 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8883DCB326E4C3800008B520 /* SubscribeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeListViewController.swift; sourceTree = "<group>"; };
+		8883DCB526E4C3A20008B520 /* WishListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListViewController.swift; sourceTree = "<group>"; };
+		8883DCB826E4C5330008B520 /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		C43DBB0288232CAE51814AFF /* Pods-MukMap (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MukMap (iOS).debug.xcconfig"; path = "Target Support Files/Pods-MukMap (iOS)/Pods-MukMap (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8883DC6426E4B4350008B520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8448A3A0BA5E7DF4ABEAB2FA /* Pods_MukMap__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8883DC7426E4B4350008B520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00CFABB287C2C779217ABD3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EB79443B8939EEBCE43196C /* Pods_MukMap__iOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0ABB808CD9D1CB3E6169DA9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C43DBB0288232CAE51814AFF /* Pods-MukMap (iOS).debug.xcconfig */,
+				2DE5CF14EA72DB359596B272 /* Pods-MukMap (iOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8883DC5A26E4B4350008B520 = {
+			isa = PBXGroup;
+			children = (
+				8883DC6226E4B4350008B520 /* Assets.xcassets */,
+				8883DC5F26E4B4350008B520 /* Shared */,
+				8883DC6926E4B4350008B520 /* iOS */,
+				8883DC7A26E4B4350008B520 /* Tests iOS */,
+				8883DC6826E4B4350008B520 /* Products */,
+				0ABB808CD9D1CB3E6169DA9E /* Pods */,
+				00CFABB287C2C779217ABD3D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8883DC5F26E4B4350008B520 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8883DCB726E4C5180008B520 /* Extensions */,
+				8883DCA826E4B64F0008B520 /* Cells */,
+				8883DCA326E4B6010008B520 /* APIManager */,
+				8883DCA426E4B61D0008B520 /* Models */,
+				8883DCA526E4B6310008B520 /* VIewModels */,
+				8883DCA226E4B5EF0008B520 /* Controllers */,
+				8883DC9F26E4B4C10008B520 /* AppDelegate.swift */,
+				8883DCAD26E4BA8B0008B520 /* SceneDelegate.swift */,
+				8883DCA926E4B67A0008B520 /* Main.storyboard */,
+				8883DCAF26E4BAB20008B520 /* LaunchScreen.storyboard */,
+				8883DC9D26E4B4C10008B520 /* MukMap (iOS)-Bridging-Header.h */,
+				8883DC9E26E4B4C10008B520 /* MukMap (macOS)-Bridging-Header.h */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8883DC6826E4B4350008B520 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8883DC6726E4B4350008B520 /* MukMap.app */,
+				8883DC7726E4B4350008B520 /* Tests iOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8883DC6926E4B4350008B520 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8883DC6A26E4B4350008B520 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		8883DC7A26E4B4350008B520 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8883DC7B26E4B4350008B520 /* Tests_iOS.swift */,
+				8883DC7D26E4B4350008B520 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		8883DCA226E4B5EF0008B520 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8883DCAB26E4B9BA0008B520 /* RootTabBarController.swift */,
+				8883DCB526E4C3A20008B520 /* WishListViewController.swift */,
+				8883DCB126E4C3680008B520 /* MapViewController.swift */,
+				8883DCB326E4C3800008B520 /* SubscribeListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8883DCA326E4B6010008B520 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = APIManager;
+			sourceTree = "<group>";
+		};
+		8883DCA426E4B61D0008B520 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8883DCA526E4B6310008B520 /* VIewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIewModels;
+			sourceTree = "<group>";
+		};
+		8883DCA826E4B64F0008B520 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8883DCB726E4C5180008B520 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8883DCB826E4C5330008B520 /* UINavigationController.swift */,
+				8840620726E4F874005B2B85 /* UISearchBar.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8883DC6626E4B4350008B520 /* MukMap (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8883DC9126E4B4350008B520 /* Build configuration list for PBXNativeTarget "MukMap (iOS)" */;
+			buildPhases = (
+				FE9BFBF201CC600EBCBE36EA /* [CP] Check Pods Manifest.lock */,
+				8883DC6326E4B4350008B520 /* Sources */,
+				8883DC6426E4B4350008B520 /* Frameworks */,
+				8883DC6526E4B4350008B520 /* Resources */,
+				2611124549D3F7234285992D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MukMap (iOS)";
+			productName = "MukMap (iOS)";
+			productReference = 8883DC6726E4B4350008B520 /* MukMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8883DC7626E4B4350008B520 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8883DC9726E4B4350008B520 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				8883DC7326E4B4350008B520 /* Sources */,
+				8883DC7426E4B4350008B520 /* Frameworks */,
+				8883DC7526E4B4350008B520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8883DC7926E4B4350008B520 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 8883DC7726E4B4350008B520 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8883DC5B26E4B4350008B520 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8883DC6626E4B4350008B520 = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+					8883DC7626E4B4350008B520 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 8883DC6626E4B4350008B520;
+					};
+				};
+			};
+			buildConfigurationList = 8883DC5E26E4B4350008B520 /* Build configuration list for PBXProject "MukMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8883DC5A26E4B4350008B520;
+			productRefGroup = 8883DC6826E4B4350008B520 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8883DC6626E4B4350008B520 /* MukMap (iOS) */,
+				8883DC7626E4B4350008B520 /* Tests iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8883DC6526E4B4350008B520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8883DCB026E4BAB20008B520 /* LaunchScreen.storyboard in Resources */,
+				8883DC8D26E4B4350008B520 /* Assets.xcassets in Resources */,
+				8883DCAA26E4B67A0008B520 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8883DC7526E4B4350008B520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2611124549D3F7234285992D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MukMap (iOS)/Pods-MukMap (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MukMap (iOS)/Pods-MukMap (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MukMap (iOS)/Pods-MukMap (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE9BFBF201CC600EBCBE36EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MukMap (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8883DC6326E4B4350008B520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8883DCB426E4C3800008B520 /* SubscribeListViewController.swift in Sources */,
+				8883DCB626E4C3A20008B520 /* WishListViewController.swift in Sources */,
+				8883DCA026E4B4C10008B520 /* AppDelegate.swift in Sources */,
+				8883DCAC26E4B9BA0008B520 /* RootTabBarController.swift in Sources */,
+				8883DCAE26E4BA8B0008B520 /* SceneDelegate.swift in Sources */,
+				8840620826E4F874005B2B85 /* UISearchBar.swift in Sources */,
+				8883DCB226E4C3680008B520 /* MapViewController.swift in Sources */,
+				8883DCB926E4C5330008B520 /* UINavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8883DC7326E4B4350008B520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8883DC7C26E4B4350008B520 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8883DC7926E4B4350008B520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8883DC6626E4B4350008B520 /* MukMap (iOS) */;
+			targetProxy = 8883DC7826E4B4350008B520 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8883DC8F26E4B4350008B520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8883DC9026E4B4350008B520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8883DC9226E4B4350008B520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C43DBB0288232CAE51814AFF /* Pods-MukMap (iOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PDYV7DPPS8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PomPom-Test.MukMap";
+				PRODUCT_NAME = MukMap;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/MukMap (iOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8883DC9326E4B4350008B520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE5CF14EA72DB359596B272 /* Pods-MukMap (iOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PDYV7DPPS8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PomPom-Test.MukMap";
+				PRODUCT_NAME = MukMap;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/MukMap (iOS)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8883DC9826E4B4350008B520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PomPom.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MukMap (iOS)";
+			};
+			name = Debug;
+		};
+		8883DC9926E4B4350008B520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PomPom.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MukMap (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8883DC5E26E4B4350008B520 /* Build configuration list for PBXProject "MukMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8883DC8F26E4B4350008B520 /* Debug */,
+				8883DC9026E4B4350008B520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8883DC9126E4B4350008B520 /* Build configuration list for PBXNativeTarget "MukMap (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8883DC9226E4B4350008B520 /* Debug */,
+				8883DC9326E4B4350008B520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8883DC9726E4B4350008B520 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8883DC9826E4B4350008B520 /* Debug */,
+				8883DC9926E4B4350008B520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8883DC5B26E4B4350008B520 /* Project object */;
+}

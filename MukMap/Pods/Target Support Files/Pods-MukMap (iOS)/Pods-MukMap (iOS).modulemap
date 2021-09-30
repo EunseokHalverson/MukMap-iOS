@@ -1,0 +1,6 @@
+framework module Pods_MukMap__iOS_ {
+  umbrella header "Pods-MukMap (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}
